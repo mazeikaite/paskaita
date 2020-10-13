@@ -1,0 +1,331 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-color: rgb(205, 209, 211);
+    font-family: 'Oswald', sans-serif;
+}
+
+.navi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    /* margin-right: 50px; */
+
+}
+.merch_name{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.navigator_left{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between;
+    /* align-items: center; */
+    text-align: center;
+    width: 35%;
+    font-family: 'Oswald', sans-serif;
+}
+.navigator_right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.merch_name_list{
+    margin: 15px;
+}
+
+.merch_name_list_r{
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.first_block {
+    background-color: white;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.shoe{
+    width: 50%;
+    margin-right: 140px;
+    margin-top: 100px;
+    margin-left: 50px;
+    max-height: max-content;
+
+}
+
+.merch{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.heart_logo{
+    margin: auto;
+}
+
+.heart_button{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-style: solid ;
+    margin-bottom: 40px;
+}
+.merch_right{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+}
+.antraste_du {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+
+.antraste_trys{
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 14px;
+}
+.price{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: grey;
+}
+.color_picker{
+    color: grey;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+.color {
+    color: rgb(69, 169, 236);
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+}
+
+.small_shoes{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+
+   
+}
+.small_shoe_pic{
+    /* width: 20%; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+}
+.shoe_box{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(228, 226, 226);
+    margin-right:5px;
+    text-align: center;
+    position: relative;
+    border: rgb(202, 202, 202) solid 1px;
+
+}
+.sizechart{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: grey;
+    font-weight: 300;
+    font-size: 14px;
+}
+.dropdown_list{
+    width: 120px;
+    height: 40px;
+    border: solid 1px rgb(179, 179, 179);
+    color:  rgb(179, 179, 179);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    padding-left: 5px;
+}
+.submit{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+.background_pic{
+    background: url(Image/feet.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-left: 4%;
+    margin-right: 4%;
+
+}
+.antraste_trys_background{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 14px;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    max-width: 400px;
+}
+.text_feet{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: white;
+    max-width: 400px;
+    line-height: 24px;
+    font-weight: 300;
+    padding-left: 50px;
+    padding-bottom: 200px;
+}
+.story{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: grey;
+    padding-top: 70px;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+.background_story{
+    background-color: rgb(245 241 241);
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 4%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.nike_origins{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    margin-bottom: 14px;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+body p{font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;
+    font-size: 14px;
+    color: gray;
+
+}
+.upper_case{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.small_text{
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    color: grey;
+}
+.right_side{
+    margin-right: 50px;
+    border: rgb(179, 179, 179) solid 5px;
+    background-color: white;
+    margin-top: 70px;
+    margin-bottom:70px;
+    padding: 20px;
+    width: 25%;
+
+}
+.left_side{
+    width: 30%;
+}
+.middle{
+    display: block;
+    max-width: 100%;
+    margin: 30px 0 ;
+    width: 45%;
+    height: max-content;
+}
+.color_right {
+    color: rgb(69, 169, 236);
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+.tavas{
+    padding-bottom: 20px;
+}
+.stock{
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.shoe_right{
+    padding-bottom: 30px;
+}
+.en{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+        
+    
+.last_section{
+    /* position: relative; */
+    background: url(Image/nikeshoes.png); 
+    background-size: cover;
+    height: 280px;
+    margin: 0 4%;
+    overflow: hidden;
+    animation: gallery 10s linear infinite
+    
+    
+
+}
+.karusele{
+    /* position: absolute; */
+    left: 0;
+    top: 0;
+    height: 280px;
+    width: 100%;
+    ;
+}
+
+
+@keyframes gallery {
+    0% {
+        background-position: 0px 0px;
+    }
+    100% {
+        background-position: -1210px 0px;
+    }
+}
+
